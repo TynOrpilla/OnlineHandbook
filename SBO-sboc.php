@@ -7,6 +7,7 @@
     <link href="https://fonts.cdnfonts.com/css/futura-md-bt" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/adam-2" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/sansserifflf" rel="stylesheet">
+    <link href="sbo-sboc.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
@@ -248,7 +249,7 @@
 	<div class="sidenavbar">
 	<div class="space"> </div>
     <div class="sidebar-item">
-        <a href="#">
+        <a href="SBO-sboc.php">
             <img class="sidebar-item-img" src="icons/constitution.png" alt="Image 1">
             <div class="sidebar-item-text">Student Body Organizations Constitution</div>
         </a>
@@ -565,6 +566,8 @@
     <div class="blog-slider__pagination"></div>
   </div>
 <!-- END SLIDE -->
+
+
 
 </body>
 </html>
