@@ -250,7 +250,7 @@
 	<div class="sidenavbar">
 	<div class="space"> </div>
     <div class="sidebar-item">
-        <a href="ssafap-goals_objectives.php">
+        <a href="ssafap-goal_objectives.php">
             <img class="sidebar-item-img" src="icons/goals.png" alt="Image 1">
             <div class="sidebar-item-text">Goals and Objectives</div>
         </a>
