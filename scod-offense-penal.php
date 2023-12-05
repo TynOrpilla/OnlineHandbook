@@ -9,6 +9,8 @@
     <link href="https://fonts.cdnfonts.com/css/sansserifflf" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/time.css">
+    <link rel="stylesheet" href="css/calendar.css">
     <link rel="stylesheet" href="css/acad.css">
     <style>
     .navbar {
@@ -202,13 +204,83 @@
 			margin-bottom: 50px;
 			margin-top: 50px;
 		}
+        
+        .space1{
+            margin-bottom: 20px;
+			margin-top: 20px;
+        }
 
+        .space2{
+            margin-bottom: 10px;
+			margin-top: 10px;
+        }
+
+        .space3{
+            margin-bottom: 10px;
+        }
+        .row {
+        display: flex;
+        }
+
+        .column {
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: justify;
+        }
+
+        .column-left {
+            flex: 1; /* Adjust the proportion of the left column */
+        }
+
+        .column-right {
+            flex: 1.4; /* Adjust the proportion of the right column */
+        }
+        
+        .left-align{
+            margin:auto 0;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 100%; /* Ensures the video doesn't exceed its container's width */
+        }
+
+        .video-container video {
+            width: 100%;
+            height: auto;
+        }
+
+        .section-title{
+            margin-right:14%;
+            margin-top:20px;
+            text-align:center;
+            margin-bottom:10px;
+        }
+        
+        .article-title{
+            font-size:25px;
+        }
+
+        table {
+        margin: auto; /* Center the table */
+    }
+
+    td {
+        text-align: center; /* Center text within cells */
+        vertical-align: middle; /* Center vertically within cells */
+        font-weight: bold; /* Set font weight to bold */
+    }
+    .content-table{
+        font-weight:normal;
+    }
+    .content-table1{
+        font-weight:normal;
+        text-align:justify;
+    }
     </style>
 </head>
 <body>
-<div class="default-text">
-       STUDENT CODE OF DISCIPLINE 
-</div>
     <div class="navbar">
         <a href="home.php">HOME</a>
         <div class="dropdown">
@@ -262,13 +334,22 @@
         </a>
     </div>
     <div class="sidebar-item">
-        <a href="scod-offense-penal_A2.php">
+    <a href="scod-offense-penal_A2.php">
             <img class="sidebar-item-img" src="icons/committee.png" alt="Image 2">
             <div class="sidebar-item-text">Article 2. Committees and Proceedings</div>
         </a>
     </div>
 </div>
 
+
+<div class="timeline">
+    <h2>OFFENSES AND PENALTIES<br><br></h2>
+    <p>When a person registers as a student and is accepted in DMMMSU, a contract is established where he submits himself and agrees to comply with the rules and regulations of the University. Upon his enrollment, he assumes all responsibilities appertaining to his status as a student specifically towards the administration, staff, faculty members and fellow students.</p>
+    <p>Every student must value and exercise self-discipline to earn due respect from fellow students, staff, faculty members, stakeholders and the administration. He should conduct and present himself in a decent manner and abide with generally accepted norms of behavior at all times. He should observe courtesy and proper decorum in dealing with his fellow students, faculty, personnel and the administration.</p>
+    <p>Every student shall obey the laws of the land, the rules and regulations of the institution and the standard of a good society.</p>
+    <p>The penalties are intended to inculcate the ideals of justice, to have a healthy respect for rules and authority, rectify unacceptable behavior and protect the good name both of the students and of the University.</p>
+
+    <div class="space2"></div>
 
 </body>
 </html>
