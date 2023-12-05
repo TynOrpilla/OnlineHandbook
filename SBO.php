@@ -246,7 +246,7 @@
 	<div class="sidenavbar">
 	<div class="space"> </div>
     <div class="sidebar-item">
-        <a href="#">
+        <a href="sbo-sboc1.php">
             <img class="sidebar-item-img" src="icons/constitution.png" alt="Image 1">
             <div class="sidebar-item-text">Student Body Organizations Constitution</div>
         </a>
