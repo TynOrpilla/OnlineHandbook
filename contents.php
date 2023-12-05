@@ -223,7 +223,7 @@
             </div>
         </a>
 
-        <a href="SSAFAP.php" class="container-link">
+        <a href="SSAFAP1.php" class="container-link">
             <div class="container">
                 <img src="icons/insurance.png" alt="cont 4">
                 <div class="overlay"><h3>Student Scholarship, Assistantship & Financial Assistance Program</h3></div>
