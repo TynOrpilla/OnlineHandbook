@@ -202,9 +202,26 @@
 			margin-top: 50px;
 		}
 
+        .default-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #46E068;
+        font-size: 40px;
+        font-family: 'Futura Md BT', sans-serif;
+        margin-left: 25%;
+        margin-top:300px;
+        height: 170px;
+        width:60%;
+    }
+
     </style>
 </head>
 <body>
+    <div class="default-text">
+        STUDENT BODY ORGANIZATION <br>CONSTITUTION AND BY-LAWS
+    </div>
     <div class="navbar">
         <a href="home.php">HOME</a>
         <div class="dropdown">
