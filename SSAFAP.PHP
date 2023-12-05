@@ -246,31 +246,31 @@
 	<div class="sidenavbar">
 	<div class="space"> </div>
     <div class="sidebar-item">
-        <a href="#">
+        <a href="ssafap-goal-objective.php">
             <img class="sidebar-item-img" src="icons/goals.png" alt="Image 1">
             <div class="sidebar-item-text">Goals and Objectives</div>
         </a>
     </div>
     <div class="sidebar-item">
-        <a href="#">
+        <a href="ssafap-personnel.php">
             <img class="sidebar-item-img" src="icons/group.png" alt="Image 2">
             <div class="sidebar-item-text">Personnel</div>
         </a>
     </div>
     <div class="sidebar-item">
-        <a href="#">
+        <a href="ssafap-services.php">
             <img class="sidebar-item-img" src="icons/services.png" alt="Image 2">
             <div class="sidebar-item-text">Services</div>
         </a>
     </div>
 	<div class="sidebar-item">
-        <a href="#">
+        <a href="ssafap-grants-scholarship.php">
             <img class="sidebar-item-img" src="icons/scholar.png" alt="Image 2">
             <div class="sidebar-item-text">Grants and Scholarships</div>
         </a>
     </div>
 	<div class="sidebar-item">
-        <a href="#">
+        <a href="ssafap-student-assistanship.php">
             <img class="sidebar-item-img" src="icons/assist.png" alt="Image 2">
             <div class="sidebar-item-text">Student Assistantship Program</div>
         </a>
