@@ -9,6 +9,7 @@
     <link href="https://fonts.cdnfonts.com/css/sansserifflf" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/ssafap.css">
     <style>
     .navbar {
 		background-color: #46E068;
@@ -205,6 +206,9 @@
     </style>
 </head>
 <body>
+<div class="default-text">
+       STUDENT SCHOLARSHIP, ASSISTANSHIP AND FINANCIAL ASSISTANCE PROGRAM
+    </div>
     <div class="navbar">
         <a href="home.php">HOME</a>
         <div class="dropdown">
@@ -246,31 +250,31 @@
 	<div class="sidenavbar">
 	<div class="space"> </div>
     <div class="sidebar-item">
-        <a href="#">
+        <a href="ssafap-goals-objectives.php">
             <img class="sidebar-item-img" src="icons/goals.png" alt="Image 1">
             <div class="sidebar-item-text">Goals and Objectives</div>
         </a>
     </div>
     <div class="sidebar-item">
-        <a href="#">
+        <a href="ssafap-personnel.php">
             <img class="sidebar-item-img" src="icons/group.png" alt="Image 2">
             <div class="sidebar-item-text">Personnel</div>
         </a>
     </div>
     <div class="sidebar-item">
-        <a href="#">
+        <a href="ssafap-services.php">
             <img class="sidebar-item-img" src="icons/services.png" alt="Image 2">
             <div class="sidebar-item-text">Services</div>
         </a>
     </div>
 	<div class="sidebar-item">
-        <a href="#">
+        <a href="ssafap-grants-scholarship.php">
             <img class="sidebar-item-img" src="icons/scholar.png" alt="Image 2">
             <div class="sidebar-item-text">Grants and Scholarships</div>
         </a>
     </div>
 	<div class="sidebar-item">
-        <a href="#">
+        <a href="ssafap-student-assistanship.php">
             <img class="sidebar-item-img" src="icons/assist.png" alt="Image 2">
             <div class="sidebar-item-text">Student Assistantship Program</div>
         </a>
