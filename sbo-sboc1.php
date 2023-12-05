@@ -776,7 +776,7 @@
 </div>
 
 <div class="timeline">
-    <h2>DMMMSU STUDENT BODY ORGANIZATION CONSTITUTION AND BY-LAWS<br><br></h2>
+    <h2>DMMMSU STUDENT BODY ORGANIZATION CONSTITUTION<br><br></h2>
 </div>
 
 <br><h1 class="middle-title">PREAMBLE<br></h1>
