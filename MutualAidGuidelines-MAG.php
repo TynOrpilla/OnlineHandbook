@@ -8,9 +8,13 @@
     <link href="https://fonts.cdnfonts.com/css/adam-2" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/sansserifflf" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="css/acad.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <link rel="stylesheet" href="css/time.css">
+    <link rel="stylesheet" href="css/calendar.css">
     <style>
+    .MAG{
+        margin-left:25%;
+    }
     .navbar {
 		background-color: #46E068;
 		padding: 5px 5px;
@@ -27,8 +31,6 @@
 		margin: 0;
 		box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3); /* Add box shadow */
 	}
-
-
         .navbar a {
             float: left;
             display:flex;
@@ -202,13 +204,99 @@
 			margin-bottom: 50px;
 			margin-top: 50px;
 		}
+        .space1{
+            margin-bottom: 20px;
+			margin-top: 20px;
+        }
+
+        .space2{
+            margin-bottom: 10px;
+			margin-top: 10px;
+        }
+
+        .space3{
+            margin-bottom: 10px;
+        }
+        .section_p{
+        justify-content:center;
+        text-align:justify;
+        width:900px;
+        }
+
+        .section_p2{
+        justify-content:center;
+        text-align:justify;
+        width:600px;
+        margin-left:24%;
+        }
+    
+    .chapter_h2{
+        left:10%;
+    }
+    .section_indent{
+        justify-content:center;
+        text-align:justify;
+        text-indent:60px;
+    }
+
+    .letter_p{
+        justify-content:center;
+        margin-left:11%; 
+        margin-bottom:10px;
+        width:800px;
+    }
+
+    .flex_p{
+        justify-content:center; 
+        margin-bottom:15px;
+        width:300px;
+
+    }
+
+    .flex_p{
+        justify-content:center; 
+        margin-bottom:15px;
+        width:300px;
+        margin-left:15px;
+    }
+
+    .letter_p2{
+        justify-content:center;
+        text-align:left;
+        left:20%; 
+        margin-bottom:10px;
+    }
+
+    .section_h3{
+        font-size:20px;
+        weight:bold;
+        text-align:center;
+        padding-bottom:20px;
+    }
+    .section_h4{
+        font-size:20px;
+        weight:bold;
+        text-align:left;
+        padding-bottom:10px;
+        text-decoration:underline;
+    }
+
+    .section_indent span {
+    font-weight: bold;
+    }
+    .two-column-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+    .column {
+        flex: 1;
+    }
 
     </style>
 </head>
-<body>
-<div class="default-text">
-       MUTUAL AID GUIDELINES
-</div>
+<body class="MAG">
+
     <div class="navbar">
         <a href="home.php">HOME</a>
         <div class="dropdown">
@@ -262,7 +350,124 @@
         </a>
     </div>
 </div>
+<div class="timeline">
+    <h2>MUTUAL AID GUIDELINES</h2>
+    <p class="section_p2">(Approved as per BOR Resolution No. 2021-615 dated May 20, 2021)</p>
+    <div class="space2"></div>
+    <div class="space2"></div>
+    <h4 class="section_h4">Purpose</h4>
+    <div class="space3"></div>
+    <p class="section_p">• To provide immediate financial assistance to every student in case of hospitalization, accident, and death.</p>
+    <div class="space4"></div>
+    <h4 class="section_h4">Amount to be Collected</h4>
+<table>
+  <thead>
+    <tr>
+      <th>Level</th>
+      <th>Amount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <th>Elementary/Secondary</th>
+        <th>₱100 per School year</th>
+    </tr>
+    <tr>
+        <th>Tertiary</th>
+        <th>₱50.00 per Semester</th>
+    </tr>
+  </tbody>
+</table>
 
+<div class="space1"></div>
+<p class="letter_p">• To be collected during the enrolment and to be paid at the cashier's office</p>
+</div>
 
+<div class="space"></div>
+    <h4 class="section_h4">Benefits</h4>
+<table >
+  <thead>
+    <tr>
+      <th>Case</th>
+      <th>Amount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <th>Death except suicide (by the beneficiary)</th>
+        <th>₱30,000.00</th>
+    </tr>
+    <tr>
+        <th>Loss of one hand, one foot or sight of one eye</th>
+        <th>₱10,000.00</th>
+    </tr>
+    <tr>
+        <th>Loss of one or more fingers</th>
+        <th>₱3,500.00</th>
+    </tr>
+    <tr>
+        <th>Injury/illness which resulted to hospitalization (max)</th>
+        <th>₱7,500.00</th>
+    </tr>
+    <tr>
+        <th>Injury/illness but there is no need for hospitalization (max)</th>
+        <th>₱4,000.00 </th>
+    </tr>
+  </tbody>
+</table>
+
+<div class="space1"></div>
+<p class="letter_p">• If two or more of the stated cases occur in a particular semester, only the
+condition with the highest benefit shall be given due merit.</p>
+
+<div class="space"></div>
+
+<h4 class="section_h4">Other Provisions</h4>
+<div class="space3"></div>
+    <p class="section_p">• All benefits to be awarded shall be recommended by the CSBO Chairman, 
+        CSBO Adviser, Campus Physician, and the SAS Head.</p>
+    <p class="section_p">• All necessary documents (medical certificate, official receipts, 
+            prescription) shall be appended to the written recommendation to be approved by the SAS Director.</p>
+    <p class="section_p">• Only one claim can be made per semester by tertiary students and two 
+        claims by the elementary pupils and high school students within the prescribed school year.
+    <p class="section_p">• Claims can be made until 3 months after the incident, except during the last quarter of the year.</p>
+    <p class="section_p">• Claim for benefit ceases upon termination or discontinuance of studies.</p>
+    
+    <div class="space4"></div>
+
+    <div class="two-column-container">
+    <div class="column">
+        <h4 class="section_h4">Coverage</h4>
+        <div class="space3"></div>
+        <div class="section">
+            <p class="flex_p">•Year-round (January - December)</p>
+            <p class="flex_p">• Tertiary students must have paid for the 2 semesters to avail the mutual aid during the midyear term
+        </div>
+    </div>
+    <div class="column">
+        <h4 class="section_h4">Pertinent Supporting Papers</h4>
+        <div class="space3"></div>
+        <div class="section">
+            <p class="flex_p">• Death: Death certificate</p>
+            <p class="flex_p">• Other cases:</p>
+                <p class="flex_p2">• Medical Certificate</p>
+                <p class="flex_p2">• Official Receipts</p>
+                <p class="flex_p2">• Doctor's Prescription</p>
+        </div>
+    </div>
+    </div>
+
+    <h4 class="section_h4">Collection and Withdrawal of Funds</h4>
+    <div class="space3"></div>
+    <p class="section_p">• Collection of mutual aid fees shall be done by the respective campuses / units during enrolment.</p>
+    <p class="section_p">• Since the granting of financial assistance is centralized the campus/units concerned shall remit their 
+        collections to the Central Administration, under the account of the University Mutual Aid Fund.</p>
+    <p class="section_p">• No withdrawal shall be allowed except in accordance with the purpose stipulated under the Mutual Aid 
+        Fund Guidelines duly supported with the Mutual Aid Application Form.</p>
+    <p class="section_p">• Payment of claims shall be made through regular disbursements in the form of check.</p>
+    <p class="section_p">• Summary Report on claims should be submitted by the CSBO to the SAS Office every end of the semester.</p>
+
+</div>
+<div class="space"></div>
 </body>
 </html>

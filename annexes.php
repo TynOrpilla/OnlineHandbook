@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="css/acad.css">
+    <link rel="stylesheet" href="css/time.css">
+    <link rel="stylesheet" href="css/calendar.css">
     <style>
     .navbar {
 		background-color: #46E068;
@@ -202,13 +204,16 @@
 			margin-bottom: 50px;
 			margin-top: 50px;
 		}
-
+    .section_h4{
+        font-size:25px;
+        weight:bold;
+        text-align:left;
+        padding-bottom:10px;
+    }
     </style>
 </head>
 <body>
-<div class="default-text">
-       MUTUAL AID GUIDELINES
-</div>
+
     <div class="navbar">
         <a href="home.php">HOME</a>
         <div class="dropdown">
@@ -263,6 +268,16 @@
     </div>
 </div>
 
+<div class="timeline">
+    <h2>Annexes</h2>
+</div>
+<div class="space"></div>
+<h4 class="section_h4">RA 7877 - Anti-Sexual Harassment Act of 1995</h4>
+<h4 class="section_h4">RA 9165 Comprehensive Dangerous Drugs Act of 2002</h4>
+<h4 class="section_h4">RA 9262 - Anti-Violence against Women and their Children Act of 2004</h4>
+<h4 class="section_h4">RA 9442 - Magna Carta for Disabled Persons, and for other Purposes</h4>
+<h4 class="section_h4">RA 10175 - Cybercrime Prevention Act of 2012</h4>
+<h4 class="section_h4">RA 10931 - Universal Access to Quality Tertiary Education Act</h4>
 
 </body>
 </html>

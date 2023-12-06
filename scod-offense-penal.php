@@ -350,6 +350,6 @@
     <p>The penalties are intended to inculcate the ideals of justice, to have a healthy respect for rules and authority, rectify unacceptable behavior and protect the good name both of the students and of the University.</p>
 
     <div class="space2"></div>
-
+</div>
 </body>
 </html>
