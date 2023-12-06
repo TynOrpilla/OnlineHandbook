@@ -229,6 +229,7 @@ body {
   left: 0;
   width: 100%;
 }
+
 .blog-slider__pagination {
   position: absolute;
   z-index: 21;

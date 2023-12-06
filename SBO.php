@@ -252,19 +252,19 @@
         </a>
     </div>
     <div class="sidebar-item">
-        <a href="#">
+        <a href="sbo-laws.php">
             <img class="sidebar-item-img" src="icons/law.png" alt="Image 2">
             <div class="sidebar-item-text">By-Laws</div>
         </a>
     </div>
     <div class="sidebar-item">
-        <a href="#">
+        <a href="sbo-uerg.php">
             <img class="sidebar-item-img" src="icons/elect.png" alt="Image 2">
             <div class="sidebar-item-text">Uniform Election Rules & Guidelines of the DMMMSU-SBO</div>
         </a>
     </div>
 	<div class="sidebar-item">
-        <a href="#">
+        <a href="sbo-ethical.php">
             <img class="sidebar-item-img" src="icons/standard.png" alt="Image 2">
             <div class="sidebar-item-text">Code of Conduct & Ethical Standards</div>
         </a>

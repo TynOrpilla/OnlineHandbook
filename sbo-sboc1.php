@@ -756,19 +756,19 @@
         </a>
     </div>
     <div class="sidebar-item">
-        <a href="#">
+        <a href="sbo-laws.php">
             <img class="sidebar-item-img" src="icons/law.png" alt="Image 2">
             <div class="sidebar-item-text">By-Laws</div>
         </a>
     </div>
     <div class="sidebar-item">
-        <a href="#">
+        <a href="sbo-uerg.php">
             <img class="sidebar-item-img" src="icons/elect.png" alt="Image 2">
             <div class="sidebar-item-text">Uniform Election Rules & Guidelines of the DMMMSU-SBO</div>
         </a>
     </div>
 	<div class="sidebar-item">
-        <a href="#">
+        <a href="sbo-ethical.php">
             <img class="sidebar-item-img" src="icons/standard.png" alt="Image 2">
             <div class="sidebar-item-text">Code of Conduct & Ethical Standards</div>
         </a>
@@ -784,7 +784,7 @@
 <p id="statement">We, the students of the Don Mariano Marcos Memorial State University, imploring the aid of Almighty God, in order to establish a student organization that shall embody our love of democratic ideals and aspirations, promote the 
     common good and interest in the realization of camaraderie and help uplift students welfare in the attainment of the conceived goals and mission of the University, do ordain and promulgate this Constitution.</p>
 
-<br><br> <h2>Article I NAME AND ADDRESS OF THE ORGANIZATION</h2>
+<br><br><h2>Article I NAME AND ADDRESS OF THE ORGANIZATION</h2>
 
   <!-- START SLIDE -->
   <div class="blog-slider" id="blog-slider-1">
