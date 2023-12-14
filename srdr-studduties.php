@@ -7,6 +7,10 @@
     <link href="https://fonts.cdnfonts.com/css/futura-md-bt" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/adam-2" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/sansserifflf" rel="stylesheet">
+    <link rel="stylesheet" href="css/duties.css">
+    <link rel="stylesheet" href="css/time.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="css/acad.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
@@ -202,6 +206,55 @@
 			margin-top: 50px;
 		}
 
+        .row {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-left:7%;
+    width:900px;
+    
+    }
+
+    .column-left {
+    flex: 2; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    width:800px;
+    }
+
+    .column-right {
+    flex: 1; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    }
+
+    .image-box {
+    width: 100%; 
+    height: auto; 
+    }
+
+    .image-box img {
+    width: 100%; 
+    height: auto; 
+    border-radius:10%;
+    }
+
+    .column-left p {
+    margin: 0; 
+    }
+
+    .image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+    }
+
+    .image-box img:hover {
+    transform: scale(1.1); /* Scale the image by 10% on hover */
+    }
+
+    
     </style>
 </head>
 <body>
@@ -258,6 +311,66 @@
         </a>
     </div>
 </div>
+
+<div class="timeline">
+    <h2>DUTIES AND RESPONSIBILITIES OF STUDENTS<br><br><br></h2>
+    <p>In addition to those provided for under existing laws, every student shall:</p>
+</div>
+
+<div class="cards">
+  <div class="card" data-index="0">
+    <div class="card__inner">
+      <div class="card__content">
+        <p class="card__description">
+        Develop his potentials particularly by undergoing an education suited to his abilities in order that he may become an asset to his family and society.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-index="0">
+    <div class="card__inner">
+      <div class="card__content">
+        <p class="card__description">
+        Uphold the academic integrity of the University and achieve academic excellence and abide by the rules and regulations governing his academic responsibilities and moral integrity.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-index="0">
+    <div class="card__inner">
+      <div class="card__content">
+        <p class="card__description">
+        Promote and maintain the peace and order of the University by observing the rules of discipline and by exerting effort to attain the harmonious relationship with fellow students, the teaching and academic staff and other University personnel.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-index="0">
+    <div class="card__inner">
+      <div class="card__content">
+        <p class="card__description">
+        Participate actively in civic affairs and in the promotion of the general welfare, particularly in social, economic and cultural development of his community, and in the attainment of a just, compassionate and orderly society.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-index="0">
+    <div class="card__inner">
+      <div class="card__content">
+        <p class="card__description">
+        Exercise his right in the knowledge that he is answerable to any infringement or violation of the public welfare and of the rights of others.
+        </p>
+      </div>
+    </div>
+  </div>
+
+<div class="spacio"></div>
+
+<script src="registration.js"></script>
 
 
 </body>
