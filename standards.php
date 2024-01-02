@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="css/standards.css">
 </head>
 <body>
+
+<div class="exit">
+    <a href="./home.php"><img src="icons/back.png" alt=""></a>
+</div>
     
   <div class="blog-slider">
     <!-- First Blog Slider -->

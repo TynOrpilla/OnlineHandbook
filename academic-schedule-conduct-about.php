@@ -7,10 +7,8 @@
     <link href="https://fonts.cdnfonts.com/css/futura-md-bt" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/adam-2" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/sansserifflf" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/conduct.css">
-    <link rel="stylesheet" href="css/calendar.css">
-    <link rel="stylesheet" href="css/acad.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">>
+    <link rel="stylesheet" href="css/academic_policy_nav_bar.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
@@ -18,44 +16,27 @@
 </head>
 <body>
 
-    <div class="navbar">
-
-        <a href="home.php">HOME</a>
-        <div class="dropdown">
-            <button class="dropbtn">ABOUT US <span>&#9660;</span></button>
-            <div class="dropdown-content">
-                <a href="#">UNIVERSITY HISTORY</a>
-                <a href="#">SCHOOL HYMN</a>
-                <a href="#">3D VIEW RULES & REG.</a>
-                <a href="#">MAP</a>
+<header>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="home.php"><img src="images/logo.png" alt="Uniguide| Home"></a>
+            </div>
+            <div class="navbar">
+                <div class="close-nav"><button>×</button></div>
+                <nav>
+                    <ul>
+                        <li><a href="home.php">HOME</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="courses.php">COLLEGES</a></li>
+                        <li><a href="games/gameoptions.php">GAMES</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu-bar">
+                <button><i></i></button>
             </div>
         </div>
-        <div class="dropdown">
-            <button class="dropbtn">GAMES <span>&#9660;</span></button>
-            <div class="dropdown-content">
-                <a href="#">Quiz Bee</a>
-                <a href="#">Matching Type</a>
-                <a href="#">GAME3</a>
-                <a href="#">GAME4</a>
-            </div>
-        </div>
-        <div class="dropdown">
-            <button class="dropbtn">COURSES <span>&#9660;</span></button>
-            <div class="dropdown-content">
-                <a href="#">COURSE1</a>
-                <a href="#">COURSE2</a>
-                <a href="#">COURSE3</a>
-                <a href="#">COURSE4</a>
-                <a href="#">COURSE5</a>
-                <a href="#">COURSE6</a>
-                <a href="#">COURSE7</a>
-            </div>
-        </div>
-		<div class="navlogo">
-            <a href="home.php"><img src="images/logo.png" alt="Logo"></a>
-        </div>
-    </div>
-
+    </header>
     <div class="sidenavbar">
 	<div class="space"> </div>
     <div class="sidebar-item">

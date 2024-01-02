@@ -8,6 +8,11 @@
   <link rel="stylesheet" href="css/gradattri.css">
 </head>
 <body>
+
+<div class="exit">
+    <a href="./home.php"><img src="icons/back.png" alt=""></a>
+</div>
+
 <div class="centered-container">
         <h2>Graduate Attributes</h2>
         <p>DMMMSU aims to produce highly competent, specialized, and globally competitive professionals. This is operationalized into graduate attributes that should be attained by the time students will graduate from the university.</p>

@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap");
 @import url('https://fonts.cdnfonts.com/css/league-spartan');
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Fira Sans', sans-serif;
-  text-decoration: none;
-}
+
 .college-programs-title {
   text-align: center;
   margin-top: 2%;
@@ -18,7 +12,7 @@
 }
 
 .college-programs-title h1 {
-  font-size: 28px;
+  font-size: 20px;
   color: #333;
   margin: 0;
   padding: 10px;
@@ -28,8 +22,8 @@
 }
 
 .college-programs-title img {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   margin-bottom: 10px;
   
 }
@@ -37,7 +31,6 @@
 section {
   position: relative;
   width: 100%;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,8 +40,6 @@ section {
 
 .swiper {
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 .swiper-slide {
@@ -183,5 +174,6 @@ section {
 }
 
 
-
-
+courses-.container{
+  padding: 0;
+}

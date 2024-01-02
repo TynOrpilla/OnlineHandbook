@@ -6,19 +6,31 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/pmvg.css">
 
+  <style>
+  .exit{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.exit img{
+  width: 50px;
+  height: 50px;
+
+}
+</style>
+
 
 </head>
 
 <body>
 
-<div class="back-button-container">
-        <a href="home.php" class="back-button">
-            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24">
-                <path d="M0 0h24v24H0V0z" fill="none"/>
-                <path d="M14.59 8L10 12.59 5.41 8 4 9.41l6 6 6-6z"/>
-            </svg>
-        </a>
-    </div>
+<div class="exit">
+    <a href="./home.php"><img src="icons/back.png" alt=""></a>
+</div>
 
     <main class="main">
         <h1>DMMMSU PVMG</h2>

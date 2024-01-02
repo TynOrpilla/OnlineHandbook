@@ -4,15 +4,13 @@
   <meta charset="UTF-8">
   <title>CodePen - Carousel #swiperjs #flex</title>
   
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'><link rel="stylesheet" href="css/courses.css">
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'>
+  <link rel="stylesheet" href="css/courses.css">
 
 </head>
 <body>
-<?php
-	include 'navbar.php';
-?>
+  <?php include 'nav_bar.php'; ?>
 
-<!-- partial:index.partial.html -->
 <section>
 <div class="college-programs-title">
 <img src="images/logo.png" alt="Logo">
@@ -29,7 +27,7 @@
             College of Engineering
           </p>
           <a href="home.php" class="readmore">
-            <div class="container">
+            <div class="courses-container">
                     <div class="read"><h3>Read More</h3></div>
               </div>
           </a>
@@ -44,7 +42,7 @@
             College of Arts and Sciences
           </p>
           <a href="home.php" class="readmore">
-            <div class="container">
+            <div class="courses-container">
                     <div class="read"><h3>Read More</h3></div>
               </div>
           </a>
@@ -59,7 +57,7 @@
             College of Management
           </p>
           <a href="home.php" class="readmore">
-            <div class="container">
+            <div class="courses-container">
                     <div class="read"><h3>Read More</h3></div>
               </div>
           </a>
@@ -75,7 +73,7 @@
           </p>
           <div class="readmore">
           <a href="home.php" class="readmore">
-            <div class="container">
+            <div class="courses-container">
                     <div class="read"><h3>Read More</h3></div>
               </div>
           </a>
@@ -92,7 +90,7 @@
             College of Information Technology
           </p>
           <a href="home.php" class="readmore">
-            <div class="container">
+            <div class="courses-container">
                     <div class="read"><h3>Read More</h3></div>
               </div>
           </a>
@@ -107,7 +105,7 @@
             College of Technology
           </p>
           <a href="home.php" class="readmore">
-            <div class="container">
+            <div class="courses-container">
                     <div class="read"><h3>Read More</h3></div>
               </div>
           </a>
@@ -122,7 +120,7 @@
             Institute of Criminal Justice Education
           </p>
           <a href="home.php" class="readmore">
-            <div class="container">
+            <div class="courses-container">
                     <div class="read"><h3>Read More</h3></div>
               </div>
           </a>
@@ -135,7 +133,8 @@
   </div>
 </section>
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js'></script><script  src="js/colprog.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js'></script>
+  <script  src="js/colprog.js"></script>
 
 </body>
 </html>

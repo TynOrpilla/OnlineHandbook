@@ -8,6 +8,10 @@
 
 </head>
 <body>
+
+<div class="exit">
+    <a href="./home.php"><img src="icons/back.png" alt=""></a>
+</div>
 <!-- partial:index.partial.html -->
 <div class=" h-100 w-100 py-4">
    <div class="d-flex justify-content-center align-items-center flex-column mb-3">

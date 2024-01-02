@@ -215,31 +215,19 @@
   </div>
   <div class="menu-container">
 
-  <div class="dropdown">
-      <button class="dropbtn">HOME</button>
-      <a href="home.php"></a>
+  	<div class="dropdown">
+	<a href="home.php" class="dropbtn">HOME</a>
     </div>
     <div class="dropdown">
-      <button class="dropbtn">ABOUT US</button>
-      <a href="aboutus.php"></a>
+	<a href="about_us.php" class="dropbtn">ABOUT US</a>
     </div>
     <div class="dropdown">
-            <button class="dropbtn"></button>
-            <a href="games/gameoptions.php">GAMES</a>
-        </div>
-    <div class="dropdown">
-      <button class="dropbtn">COURSES <span>&#9660;</span></button>
-      <div class="dropdown-content">
-        <a href="#">COURSE1</a>
-        <a href="#">COURSE2</a>
-        <a href="#">COURSE3</a>
-        <a href="#">COURSE4</a>
-        <a href="#">COURSE5</a>
-        <a href="#">COURSE6</a>
-        <a href="#">COURSE7</a>
-        <a href="#">COURSE8</a>
-        <a href="#">COURSE9</a>
-      </div>
+	<a href="courses.php" class="dropbtn">COLLEGES</a>
+    </div>
+
+	<div class="dropdown">
+	<a href="games/gameoptions.php" class="dropbtn">GAMES</a>
+    </div>
     </div>
   </div>
 </div>
