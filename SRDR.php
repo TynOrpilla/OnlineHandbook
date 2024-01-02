@@ -44,13 +44,13 @@
 	<div class="sidenavbar">
 	<div class="space"> </div>
     <div class="sidebar-item">
-        <a href="#">
+        <a href="srdr-studrights.php">
             <img class="sidebar-item-img" src="icons/rights.png" alt="Image 1">
             <div class="sidebar-item-text">STUDENTS' RIGHTS</div>
         </a>
     </div>
     <div class="sidebar-item">
-        <a href="#">
+        <a href="srdr-studduties.php">
             <img class="sidebar-item-img" src="icons/duty.png" alt="Image 2">
             <div class="sidebar-item-text">STUDENTS' DUTIES & RESPONSIBILITIES</div>
         </a>
