@@ -245,9 +245,11 @@
 <?php
 	include 'contents.php';
 ?>
+
+
 <br><br><br><br><br>
 <div class="footer">
-        <p>All rights reserved 2023| DMMMU MLUC</p>
+        <p>All rights reserved 2023| DMMMSU MLUC</p>
     </div>
 
 </body>

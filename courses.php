@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Carousel #swiperjs #flex</title>
+  <title>Colleges</title>
   
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'>
   <link rel="stylesheet" href="css/courses.css">
@@ -10,6 +10,7 @@
 </head>
 <body>
   <?php include 'nav_bar.php'; ?>
+
 
 <section>
 <div class="college-programs-title">
@@ -26,11 +27,13 @@
           <p>
             College of Engineering
           </p>
-          <a href="home.php" class="readmore">
+          <div class="readmore">
+          <a href="colleges/college_coe.php" class="readmore">
             <div class="courses-container">
                     <div class="read"><h3>Read More</h3></div>
               </div>
           </a>
+          </div>
         </div>
       </div>
 
@@ -41,11 +44,13 @@
           <p>
             College of Arts and Sciences
           </p>
-          <a href="home.php" class="readmore">
+          <div class="readmore">
+          <a href="colleges/college_cas.php" class="readmore">
             <div class="courses-container">
                     <div class="read"><h3>Read More</h3></div>
               </div>
           </a>
+          </div>
         </div>
       </div>
 
@@ -56,11 +61,13 @@
           <p>
             College of Management
           </p>
-          <a href="home.php" class="readmore">
+          <div class="readmore">
+          <a href="colleges/college_com.php" class="readmore">
             <div class="courses-container">
                     <div class="read"><h3>Read More</h3></div>
               </div>
           </a>
+          </div>
         </div>
       </div>
 
@@ -72,7 +79,7 @@
             College of Education
           </p>
           <div class="readmore">
-          <a href="home.php" class="readmore">
+          <a href="colleges/college_ce.php" class="readmore">
             <div class="courses-container">
                     <div class="read"><h3>Read More</h3></div>
               </div>
@@ -89,11 +96,13 @@
 
             College of Information Technology
           </p>
-          <a href="home.php" class="readmore">
+          <div class="readmore">
+          <a href="colleges/college_cit.php" class="readmore">
             <div class="courses-container">
                     <div class="read"><h3>Read More</h3></div>
               </div>
           </a>
+          </div>
         </div>
       </div>
 
@@ -104,11 +113,13 @@
           <p>
             College of Technology
           </p>
-          <a href="home.php" class="readmore">
+          <div class="readmore">
+          <a href="colleges/college_cot.php" class="readmore">
             <div class="courses-container">
                     <div class="read"><h3>Read More</h3></div>
               </div>
           </a>
+          </div>
         </div>
       </div>
 
@@ -119,12 +130,13 @@
           <p>
             Institute of Criminal Justice Education
           </p>
-          <a href="home.php" class="readmore">
+          <div class="readmore">
+          <a href="colleges/college_icje.php" class="readmore">
             <div class="courses-container">
                     <div class="read"><h3>Read More</h3></div>
               </div>
           </a>
-        </div>
+          </div>
       </div>
 
     </div>

@@ -21,7 +21,7 @@ const wordList = [
     },
     {
         word: "jaime",
-        hint: "First name of the Univerversity President"
+        hint: "First name of the University President"
     },
     {
         word: "higher",
