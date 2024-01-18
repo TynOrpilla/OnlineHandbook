@@ -228,6 +228,10 @@
 	<div class="dropdown">
 	<a href="games/gameoptions.php" class="dropbtn">GAMES</a>
     </div>
+
+	<div class="dropdown">
+	<a href="contact_us.php" class="dropbtn">CONTACT US</a>
+    </div>
     </div>
   </div>
 </div>

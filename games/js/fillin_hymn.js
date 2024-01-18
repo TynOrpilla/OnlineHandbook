@@ -1,6 +1,5 @@
 var timeLimit = 300; // Time limit in seconds
 
-// Function to check the answers
 function checkAlmaMaterAnswers() {
   var blanks = [
     "blank1",
@@ -63,12 +62,10 @@ function checkAlmaMaterAnswers() {
   disableFormInputs();
 }
 
-// Function to go back to the previous page
 function goBack() {
   window.history.back();
 }
 
-// Function to disable form inputs
 function disableFormInputs() {
   var form = document.getElementById("almamater-form");
   var inputs = form.getElementsByTagName("input");
@@ -78,27 +75,13 @@ function disableFormInputs() {
   }
 }
 
-// Function to display the correct answers
 function onViewAnswersClick() {
-  // Retrieve the current URL
   var currentURL = window.location.href;
-
-  // Append the answer key HTML filename to the URL
   var answerKeyURL = currentURL.substring(0, currentURL.lastIndexOf("/") + 1) + "fillin_hymn_key.html";
-
- // Fetch the answer key HTML content
- fetch(answerKeyURL)
- .then(response => response.text())
- .then(data => {
-   // Replace the current page's content with the answer key content
-   document.open();
-   document.write(data);
-   document.close();
- })
- .catch(error => {
-   console.error('Error fetching answer key:', error);
- });
+  
+  window.open(answerKeyURL, '_blank');
 }
+
 function goBackToForm() {
-    window.location.href = 'fillin.html';
+  window.location.href = 'fillin.html';
 }

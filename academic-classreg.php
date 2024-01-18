@@ -9,7 +9,6 @@
     <link href="https://fonts.cdnfonts.com/css/sansserifflf" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/register.css">
-    <link rel="stylesheet" href="css/calendar.css">
     <link rel="stylesheet" href="css/academic_policy_nav_bar.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -28,9 +27,10 @@
                 <nav>
                     <ul>
                         <li><a href="home.php">HOME</a></li>
-                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="about_us.php">ABOUT US</a></li>
                         <li><a href="courses.php">COLLEGES</a></li>
                         <li><a href="games/gameoptions.php">GAMES</a></li>
+                        <li><a href="contact_us.php">CONTACT US</a></li>
                     </ul>
                 </nav>
             </div>
@@ -177,7 +177,7 @@
 	<div class="sidebar-item">
         <a href="academic-graduate.php">
             <img class="sidebar-item-img" src="icons/thesis.png" alt="Image 2">
-            <div class="sidebar-item-text">Graduate Thesis/Capstone/Dissertation</div>
+            <div class="sidebar-item-text">Graduate Thesis/ <br>Capstone/<br>Dissertation</div>
         </a>
     </div>
 	<div class="sidebar-item">
@@ -190,19 +190,12 @@
 </div>
 
 <div class="timeline">
-    <h2>CLASSROOM REGULATIONS & MANAGEMENT<br><br></h2>
+    <h2 id="h2-classreg">CLASSROOM REGULATIONS & MANAGEMENT<br><br></h2>
 </div>
 
 <div class="cards">
   <div class="card" data-index="0">
     <div class="card__inner">
-      <div class="card__image-container">
-        <img
-          class="card__image"
-          src="images/reg1.png"
-          alt=""
-        />
-      </div>
       <div class="card__content">
         <h1 class="card__title">Student Attendance</h1>
         <p class="card__description">
@@ -214,13 +207,6 @@
 
   <div class="card" data-index="0">
     <div class="card__inner">
-      <div class="card__image-container">
-        <img
-          class="card__image"
-          src="images/reg2.png"
-          alt=""
-        />
-      </div>
       <div class="card__content">
         <h1 class="card__title"> Classroom Discipline</h1>
         <p class="card__description">
@@ -233,13 +219,6 @@
 
   <div class="card" data-index="0">
     <div class="card__inner">
-      <div class="card__image-container">
-        <img
-          class="card__image"
-          src="images/reg3.png"
-          alt=""
-        />
-      </div>
       <div class="card__content">
         <h1 class="card__title">Class Participation</h1>
         <p class="card__description">
@@ -251,13 +230,6 @@
 
   <div class="card" data-index="0">
     <div class="card__inner">
-      <div class="card__image-container">
-        <img
-          class="card__image"
-          src="images/reg3.png"
-          alt=""
-        />
-      </div>
       <div class="card__content">
         <h1 class="card__title">Evaluating Student Performance</h1>
         <p class="card__description">
@@ -270,13 +242,6 @@
 
   <div class="card" data-index="0">
     <div class="card__inner">
-      <div class="card__image-container">
-        <img
-          class="card__image"
-          src="images/reg3.png"
-          alt=""
-        />
-      </div>
       <div class="card__content">
         <h1 class="card__title">Evaluating Student Performance</h1>
         <p class="card__description">
@@ -289,13 +254,6 @@
 
   <div class="card" data-index="0">
     <div class="card__inner">
-      <div class="card__image-container">
-        <img
-          class="card__image"
-          src="images/reg3.png"
-          alt=""
-        />
-      </div>
       <div class="card__content">
         <h1 class="card__title">Evaluating Student Performance</h1>
         <p class="card__description">
@@ -308,13 +266,6 @@
 
   <div class="card" data-index="0">
     <div class="card__inner">
-      <div class="card__image-container">
-        <img
-          class="card__image"
-          src="images/reg3.png"
-          alt=""
-        />
-      </div>
       <div class="card__content">
         <h1 class="card__title">Evaluating Student Performance</h1>
         <p class="card__description">
@@ -325,13 +276,6 @@
 
   <div class="card" data-index="0">
     <div class="card__inner">
-      <div class="card__image-container">
-        <img
-          class="card__image"
-          src="images/reg3.png"
-          alt=""
-        />
-      </div>
       <div class="card__content">
         <h1 class="card__title">Medium of Instruction</h1>
         <p class="card__description">
@@ -342,13 +286,6 @@
 
   <div class="card" data-index="0">
     <div class="card__inner">
-      <div class="card__image-container">
-        <img
-          class="card__image"
-          src="images/reg3.png"
-          alt=""
-        />
-      </div>
       <div class="card__content">
         <h1 class="card__title">Medium of Instruction</h1>
         <p class="card__description">
@@ -360,13 +297,6 @@
 
   <div class="card" data-index="0">
     <div class="card__inner">
-      <div class="card__image-container">
-        <img
-          class="card__image"
-          src="images/reg3.png"
-          alt=""
-        />
-      </div>
       <div class="card__content">
         <h1 class="card__title">Preparation of Course Syllabi & Other Requirements</h1>
         <p class="card__description">

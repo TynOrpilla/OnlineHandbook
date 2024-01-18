@@ -1,5 +1,6 @@
 var timeLimit = 300; // Time limit in seconds
 
+// Function to check the answers
 function checkUniversityAnswers() {
   var blanks = [
     "philosophy-blank1",
@@ -57,26 +58,29 @@ function goBack() {
   window.history.back();
 }
 
+// Function to display the correct answers on the same tab
 function onViewAnswersClick() {
-  // Retrieve the current URL
-  var currentURL = window.location.href;
+  // Directly set the answer key URL
+  var answerKeyURL = 'fillin_pmvgo_key.html'; // Adjust this path based on your project's structure
 
-  // Append the answer key HTML filename to the URL
-  var answerKeyURL = currentURL.substring(0, currentURL.lastIndexOf("/") + 1) + "fillin_pmvgo_key.html";
+  // Hide the current content
+  document.body.innerHTML = '';
 
-  // Fetch the answer key HTML content
+  // Load the answer key content in the current tab
   fetch(answerKeyURL)
-  .then(response => response.text())
-  .then(data => {
-    // Replace the current page's content with the answer key content
-    document.open();
-    document.write(data);
-    document.close();
-  })
-  .catch(error => {
-    console.error('Error fetching answer key:', error);
-  });
- }
+    .then(response => response.text())
+    .then(data => {
+      // Replace the current page's content with the answer key content
+      document.open();
+      document.write(data);
+      document.close();
+    })
+    .catch(error => {
+      console.error('Error fetching answer key:', error);
+    });
+}
+
+// Function to go back to the form page
 function goBackToForm() {
   window.location.href = 'fillin.html';
 }

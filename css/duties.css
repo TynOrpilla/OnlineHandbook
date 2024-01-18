@@ -30,6 +30,7 @@
     display: grid;
     grid-template-rows: repeat(var(--cards-count), var(--card-height));
     gap: 230px 0;
+    margin-left: 28%;
   }
   
   .card__image-container {
@@ -64,6 +65,7 @@
     font-size: 25px;
     color: #0eab38;
     text-align: justify;
+    margin-right: 70px;
   }
   
  

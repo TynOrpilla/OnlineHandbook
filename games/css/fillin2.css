@@ -76,7 +76,11 @@ button {
   color:white;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
-  border: 1px solid #017917;
+  border: 1px solid #017917;  
+}
+
+#view-answers-btn{
+  margin-left: 167px;
 }
 
 #result {
@@ -123,8 +127,8 @@ button {
     border-radius: 10px;
     background-color: #ffffff;
     width: 485px;
-    margin-top: 90px;
-    margin-left: 400px;
+    margin-top: 180px;
+    margin-left: 33%;
     padding: 20px;
     
 }
@@ -133,18 +137,19 @@ button {
       padding-left: 20px;
       text-align: center;
       list-style-type: none;
+      align-items: center;
   }
 
   /*--------------------------------------exit--------------------------------------------*/
 
-.exit{
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-}
+  .exit{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+  }
 
 .exit img{
   width: 50px;

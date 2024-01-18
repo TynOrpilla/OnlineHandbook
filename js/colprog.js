@@ -23,3 +23,14 @@ var swiper = new Swiper(".swiper", {
     clickable: true
   }
 });
+
+var swiperEl = document.querySelector('.swiper');
+
+swiperEl.addEventListener('click', function(event) {
+  var clickedSlide = event.target.closest('.swiper-slide'); // Get the clicked slide
+  var index = parseInt(clickedSlide.getAttribute('data-swiper-slide-index')); // Get the index of the clicked slide
+
+  if (!swiper.slides[index].classList.contains('swiper-slide-active')) {
+    swiper.slideTo(index); // Slide to the clicked slide
+  }
+});

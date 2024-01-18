@@ -25,9 +25,10 @@
                 <nav>
                     <ul>
                         <li><a href="home.php">HOME</a></li>
-                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="about_us.php">ABOUT US</a></li>
                         <li><a href="courses.php">COLLEGES</a></li>
                         <li><a href="games/gameoptions.php">GAMES</a></li>
+                        <li><a href="contact_us.php">CONTACT US</a></li>
                     </ul>
                 </nav>
             </div>
@@ -110,7 +111,7 @@
             <div class="blog-slider__content">
         
               <div class="blog-slider__text">
-                <h2 class="h2_services">SCHOLARSHIP CONSOLTAION AND REFERAL</h2>
+                <h2 class="h2_services">SCHOLARSHIP CONSULTATION AND REFERAL</h2>
                     <p>&#x2022; Schedule consultaion time for scholars with problems and other concerns.</p>
                     <p>&#x2022; Coordinates with Program Chairpersons and Guidance  Counselors benefactors and tother concerned campus or university official for referral of scholars.</p>
               </div>

@@ -23,9 +23,10 @@
                 <nav>
                     <ul>
                         <li><a href="home.php">HOME</a></li>
-                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="about_us.php">ABOUT US</a></li>
                         <li><a href="courses.php">COLLEGES</a></li>
                         <li><a href="games/gameoptions.php">GAMES</a></li>
+                        <li><a href="contact_us.php">CONTACT US</a></li>
                     </ul>
                 </nav>
             </div>
@@ -199,10 +200,11 @@
         <p class="left-align">1. All complaints and violations involving discipline of students shall be filed in writing at the Office of the Chancellor through the Student Affairs and Services (SAS).</p>
     </div>
     <div class="column column-right">
-        <div class="image-placeholder">
-            <img src="your_image_path_here.jpg" alt="Image Placeholder">
+        <div class="video-container">
+        <img src="images/scod_sas.png" alt="SCOD_sas" class="smaller-image">
         </div>
-    </div>  
+    </div>
+
     </div>
 
     <div class="space3"></div>
@@ -212,10 +214,10 @@
             with specific instruction to submit a written reply within 72 hours or three (3) days upon receipt thereof. If the third day falls on 
             a Saturday, Sunday or holiday, the same shall be submitted the next immediate school day.</div>
     <div class="column column-right">
-        <div class="image-placeholder">
-            <img src="your_image_path_here.jpg" alt="Image Placeholder">
+        <div class="video-container">
+        <img src="images/scod_sas2.png" alt="SCOD_sas2" class="smaller-image">
         </div>
-    </div>  
+    </div>
     </div>
 
     <div class="space3"></div>
@@ -225,10 +227,10 @@
             or reported violations. If necessary, or upon the request of the student/s being complained of, the Committee may summon both parties 
             for possible mediation.</div>
     <div class="column column-right">
-        <div class="image-placeholder">
-            <img src="your_image_path_here.jpg" alt="Image Placeholder">
+        <div class="video-container">
+        <img src="images/scod_sas3.png" alt="SCOD_sas3" class="smaller-image">
         </div>
-    </div>  
+    </div> 
     </div>
 
     <div class="space3"></div>
@@ -237,10 +239,10 @@
         <p class="left-align">4. The report of the Committee shall be submitted to the Office of the Chancellor within 2 days. Should a probable cause exist, 
             the PIC recommends that a formal charge be issued by the Chancellor. Otherwise, the case shall be dismissed.</div>
     <div class="column column-right">
-        <div class="image-placeholder">
-            <img src="your_image_path_here.jpg" alt="Image Placeholder">
+        <div class="video-container">
+        <img src="images/scod_sas4.png" alt="SCOD_sas4" class="smaller-image">
         </div>
-    </div>  
+    </div> 
     </div>
 
     <div class="space3"></div>
@@ -249,8 +251,8 @@
         <p class="left-align">5. The Chancellor shall notify the student of the formal charge filed against him, providing a copy of the same with specific instruction
              to submit a written reply within 72 hours or three (3) days upon receipt thereof.</div>
     <div class="column column-right">
-        <div class="image-placeholder">
-            <img src="your_image_path_here.jpg" alt="Image Placeholder">
+        <div class="video-container">
+        <img src="images/scod_sas5.png" alt="SCOD_sas5" class="smaller-image">
         </div>
     </div>  
     </div>
@@ -259,11 +261,11 @@
     <div class="row">
     <div class="column column-left">
         <p class="left-align">6. The Chancellor shall then refer the matter to the Committee with appropriate jurisdiction.</div>
-    <div class="column column-right">
-        <div class="image-placeholder">
-            <img src="your_image_path_here.jpg" alt="Image Placeholder">
+        <div class="column column-right">
+        <div class="video-container">
+        <img src="images/scod_sas6.png" alt="SCOD_sas6" class="smaller-image">
         </div>
-    </div>  
+    </div> 
     </div>
 
     <div class="space1"></div>

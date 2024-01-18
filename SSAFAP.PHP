@@ -24,9 +24,10 @@
                 <nav>
                     <ul>
                         <li><a href="home.php">HOME</a></li>
-                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="about_us.php">ABOUT US</a></li>
                         <li><a href="courses.php">COLLEGES</a></li>
                         <li><a href="games/gameoptions.php">GAMES</a></li>
+                        <li><a href="contact_us.php">CONTACT US</a></li>
                     </ul>
                 </nav>
             </div>
@@ -39,6 +40,8 @@
 
 <div class="default-text">
        STUDENT SCHOLARSHIP, ASSISTANTSHIP & FINANCIAL ASSISTANCE PROGRAM
+       <div class="tut">Tutorial how to navigate the contents</div>
+    <img src="images/tutorial.png" alt="Tutorial Image">
     </div>
 
 	<div class="sidenavbar">

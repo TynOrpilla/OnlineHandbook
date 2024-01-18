@@ -24,9 +24,10 @@
                 <nav>
                     <ul>
                         <li><a href="home.php">HOME</a></li>
-                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="about_us.php">ABOUT US</a></li>
                         <li><a href="courses.php">COLLEGES</a></li>
                         <li><a href="games/gameoptions.php">GAMES</a></li>
+                        <li><a href="contact_us.php">CONTACT US</a></li>
                     </ul>
                 </nav>
             </div>
@@ -76,43 +77,49 @@
 </div>
 
 <!-- START SLIDE -->
-<div class="blog-slider">
+<div class="blog-slider" id="blog-goal">
     <div class="blog-slider__wrp swiper-wrapper">
       <!-- First Slide for the Second Slider -->
       <div class="blog-slider__item swiper-slide">
        
         <div class="blog-slider__content">
     
-          <div class="blog-slider__text">1. To assist students who are poor but deserving to find the means of financial support through scholarships and grants for educational purposes;</div>
+          <div class="blog-slider__text">
+                <p id="p-grant">1. To assist students who are poor but deserving to find the means of financial support through scholarships and grants for educational purposes;</p>
+          </div>
         </div>
       </div>
       <!-- Second Slide for the Second Slider -->
       <div class="blog-slider__item swiper-slide">
-        
+       
         <div class="blog-slider__content">
     
           <div class="blog-slider__text">
-          2. To provide assistance to students who intended to apply for financial loan; and</div>
+                <p id="p-grant">2. To provide assistance to students who intended to apply for financial loan; and</p>
+          </div>
         </div>
-      </div>
+    </div>
 
         <!-- Third Slide for the Second Slider -->
-      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__item swiper-slide">
+       
             <div class="blog-slider__content">
-                <div class="blog-slider__text">3. To scout for possible private grantors to deserving students</div>
+        
+              <div class="blog-slider__text">
+                    <p id="p-grant">3. To scout for possible private grantors to deserving students</p>
+              </div>
             </div>
-      </div>
-     
-    </div>
+        </div>
 
     <div class="blog-slider__pagination"></div>
 </div>
+        </div>
 <!-- END SLIDE -->
 
 
 <br><br><br><br><br><br>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="js/standars.js></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/standards.js"></script>
 
 </body>
 </html>

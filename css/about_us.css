@@ -227,6 +227,10 @@ li i {
   font-size: 15px;
 }
 
+.space{
+  margin-top: 40px;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .faq-section {

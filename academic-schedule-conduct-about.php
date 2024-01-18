@@ -26,9 +26,10 @@
                 <nav>
                     <ul>
                         <li><a href="home.php">HOME</a></li>
-                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="about_us.php">ABOUT US</a></li>
                         <li><a href="courses.php">COLLEGES</a></li>
                         <li><a href="games/gameoptions.php">GAMES</a></li>
+                        <li><a href="contact_us.php">CONTACT US</a></li>
                     </ul>
                 </nav>
             </div>
@@ -171,10 +172,10 @@
             <div class="sidebar-item-text">Classroom Regulations and Management</div>
         </a>
     </div>
-	<div class="sidebar-item">
+    <div class="sidebar-item">
         <a href="academic-graduate.php">
             <img class="sidebar-item-img" src="icons/thesis.png" alt="Image 2">
-            <div class="sidebar-item-text">Graduate Thesis/Capstone/Dissertation</div>
+            <div class="sidebar-item-text">Graduate Thesis/ <br>Capstone/<br>Dissertation</div>
         </a>
     </div>
 	<div class="sidebar-item">

@@ -41,8 +41,8 @@ session_start();
         <label for="stud_id"><b>Student ID:</b></label>
         <input type="text" id="stud_id" name="stud_id" placeholder="xxx-xxxx-x"><br>
         
-        <label for="name"><b>Student Name:</b></label>
-        <input type="text" id="name" name="name" placeholder="Full Name"><br>
+        <label for="name"><b>Name or DMMMSU Email</b></label>
+        <input type="text" id="name" name="name" placeholder="Full Name or DMMMSU Email"><br>
         
         <label for="complaint"><b>Your Complaint:</b></label>
         <textarea id="complaint" name="complaint" placeholder="Please describe your complaint" rows="4"></textarea><br>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 02, 2024 at 11:22 AM
+-- Generation Time: Jan 07, 2024 at 04:52 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -24,6 +24,25 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `admin`
+--
+
+CREATE TABLE `admin` (
+  `id` int(11) NOT NULL,
+  `username` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `admin`
+--
+
+INSERT INTO `admin` (`id`, `username`, `password`) VALUES
+(1, 'edseljaygundran@student.dmmmsu.edu.ph', 'ILOVEDMMSU');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `compform`
 --
 
@@ -33,6 +52,18 @@ CREATE TABLE `compform` (
   `name` varchar(100) NOT NULL,
   `complaint` varchar(300) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `compform`
+--
+
+INSERT INTO `compform` (`comp_id`, `stud_id`, `name`, `complaint`) VALUES
+(1, '201-1682-2', 'DJ Javillonar', 'i love dmmmsu'),
+(2, '201-1682-2', 'DJ Javillonar', 'HEllo'),
+(3, '201-1682-2', 'DJ Javillonar', 'qfqfqfq'),
+(4, '201-1663-2', 'XJ Orpilla', 'gegegeg'),
+(5, '201-1682-2', 'David Justine Javillonar', 'Hello, I like to complain about the trash going around the CIT building, it has a foul smell, it not very good for the surrounding area when having our class. \r\n'),
+(6, '201-1682-2', 'David Justine Javillonar', 'hfnifneijnijnvijnvjienijnrij  ivniejvnijvnrijvrnij i vij3 fijfnifni3nfije fijfn3infni3jnfij3nfij');
 
 -- --------------------------------------------------------
 
@@ -63,6 +94,12 @@ INSERT INTO `feedbacks` (`feed_id`, `message`) VALUES
 --
 
 --
+-- Indexes for table `admin`
+--
+ALTER TABLE `admin`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `compform`
 --
 ALTER TABLE `compform`
@@ -79,10 +116,16 @@ ALTER TABLE `feedbacks`
 --
 
 --
+-- AUTO_INCREMENT for table `admin`
+--
+ALTER TABLE `admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT for table `compform`
 --
 ALTER TABLE `compform`
-  MODIFY `comp_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `comp_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `feedbacks`

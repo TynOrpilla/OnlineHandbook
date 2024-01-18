@@ -24,9 +24,10 @@
                 <nav>
                     <ul>
                         <li><a href="home.php">HOME</a></li>
-                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="about_us.php">ABOUT US</a></li>
                         <li><a href="courses.php">COLLEGES</a></li>
                         <li><a href="games/gameoptions.php">GAMES</a></li>
+                        <li><a href="contact_us.php">CONTACT US</a></li>
                     </ul>
                 </nav>
             </div>
@@ -37,8 +38,11 @@
     </header>
 
     <div class="default-text">
-        ACADEMIC POLICIES
+    ACADEMIC POLICIES<br>
+    <div class="tut">Tutorial how to navigate the contents</div>
+    <img src="images/tutorial.png" alt="Tutorial Image">
     </div>
+
 
 	<div class="sidenavbar">
 	<div class="space"> </div>
@@ -93,7 +97,7 @@
 	<div class="sidebar-item">
         <a href="academic-timelimit.php">
             <img class="sidebar-item-img" src="icons/limited.png" alt="Image 2">
-            <div class="sidebar-item-text">Time Limits for the Completion of Degree Program</div>
+            <div class="sidebar-item-text" id="side-time">Time Limits for the Completion of Degree Program</div>
         </a>
     </div>
 	<div class="sidebar-item">
@@ -177,7 +181,7 @@
 	<div class="sidebar-item">
         <a href="academic-graduate.php">
             <img class="sidebar-item-img" src="icons/thesis.png" alt="Image 2">
-            <div class="sidebar-item-text">Graduate Thesis/Capstone/Dissertation</div>
+            <div class="sidebar-item-text">Graduate Thesis/ <br>Capstone/<br>Dissertation</div>
         </a>
     </div>
 	<div class="sidebar-item">

@@ -23,9 +23,10 @@
                 <nav>
                     <ul>
                         <li><a href="home.php">HOME</a></li>
-                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="about_us.php">ABOUT US</a></li>
                         <li><a href="courses.php">COLLEGES</a></li>
                         <li><a href="games/gameoptions.php">GAMES</a></li>
+                        <li><a href="contact_us.php">CONTACT US</a></li>
                     </ul>
                 </nav>
             </div>
@@ -71,10 +72,7 @@
         </div>
         <div class="column column-right">
             <div class="video-container">
-                <video controls>
-                    <source src="your_video_path_here.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+            <img src="images/scod_1.png" alt="SCOD_1" class="smaller-image">
             </div>
         </div>  
     </div>
@@ -85,10 +83,7 @@
         </div>
         <div class="column column-right">
         <div class="video-container">
-                <video controls>
-                    <source src="your_video_path_here.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+        <img src="images/scod_2.png" alt="SCOD_2" class="smaller-image">
             </div>
         </div>  
     </div>
@@ -99,10 +94,7 @@
         </div>
         <div class="column column-right">
         <div class="video-container">
-            <video controls>
-                <source src="your_video_path_here.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+        <img src="images/scod_3.png" alt="SCOD_3" class="smaller-image">
         </div>
     </div>
     </div>
@@ -114,10 +106,7 @@ gestating mother from the stress of school activities for the benefit of the unb
         </div>
         <div class="column column-right">
         <div class="video-container">
-                <video controls>
-                    <source src="your_video_path_here.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+              <img src="images/scod_4.png" alt="SCOD_4" class="smaller-image">
             </div>
         </div>   
     </div>
@@ -128,10 +117,7 @@ gestating mother from the stress of school activities for the benefit of the unb
         </div>
         <div class="column column-right">
         <div class="video-container">
-                <video controls>
-                    <source src="your_video_path_here.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+              <img src="images/scod_5.png" alt="SCOD_5" class="smaller-image">
             </div>
         </div>   
     </div>

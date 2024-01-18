@@ -11,7 +11,7 @@
     <header>
         <div class="wrapper">
             <div class="logo">
-                <a href="home.php"><img src="../images/logo.png" alt="Uniguide| Home"></a>
+                <a href="../home.php"><img src="../images/logo.png" alt="Uniguide| Home" id="logo-img"></a>
             </div>
             <div class="navbar">
                 <div class="close-nav"><button>×</button></div>
@@ -21,6 +21,7 @@
                         <li><a href="../about_us.php">ABOUT US</a></li>
                         <li><a href="../courses.php">COLLEGES</a></li>
                         <li><a href="../games/gameoptions.php">GAMES</a></li>
+                        <li><a href="../contact_us.php">CONTACT US</a></li>
                     </ul>
                 </nav>
             </div>

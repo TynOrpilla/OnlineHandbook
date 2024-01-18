@@ -9,7 +9,6 @@
     <link href="https://fonts.cdnfonts.com/css/sansserifflf" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/register.css">
-    <link rel="stylesheet" href="css/calendar.css">
     <link rel="stylesheet" href="css/academic_policy_nav_bar.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -28,9 +27,10 @@
                 <nav>
                     <ul>
                         <li><a href="home.php">HOME</a></li>
-                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="about_us.php">ABOUT US</a></li>
                         <li><a href="courses.php">COLLEGES</a></li>
                         <li><a href="games/gameoptions.php">GAMES</a></li>
+                        <li><a href="contact_us.php">CONTACT US</a></li>
                     </ul>
                 </nav>
             </div>
@@ -174,10 +174,10 @@
             <div class="sidebar-item-text">Classroom Regulations and Management</div>
         </a>
     </div>
-	<div class="sidebar-item">
+    <div class="sidebar-item">
         <a href="academic-graduate.php">
             <img class="sidebar-item-img" src="icons/thesis.png" alt="Image 2">
-            <div class="sidebar-item-text">Graduate Thesis/Capstone/Dissertation</div>
+            <div class="sidebar-item-text">Graduate Thesis/ <br>Capstone/<br>Dissertation</div>
         </a>
     </div>
 	<div class="sidebar-item">
@@ -190,8 +190,8 @@
 </div>
 
 <div class="timeline">
-    <h2>REGISTRATION<br><br></h2>
-    <button onclick="window.location.href='academic-calendar-about.php';">
+    <h2 id="h2-regis">REGISTRATION<br><br></h2>
+    <button onclick="window.location.href='https://docs.google.com/document/d/1kzkVwSYVCROcxXtXUxNeveQCYaP8RpmM/edit?usp=drivesdk&ouid=103300716428591954559&rtpof=true&sd=true&fbclid=IwAR0bNjVtZaqdUKsbt7MOIro5QKu4sE5GRHghEmnyOYnYnOazO0M9NT1Rm0w';" id="button-regis">
         Register
       </button>
 </div>
@@ -206,9 +206,9 @@
           alt=""
         />
       </div>
-      <div class="card__content">
+      <div class="card__content" id="card-con">
         <h1 class="card__title">Sec. 1</h1>
-        <p class="card__description">
+        <p class="card__description" id="p-card">
         A student shall register (walk-in or online) within the scheduled
          registration period as provided for in the approved University 
          academic calendar. A fee shall be imposed on late registration.
@@ -226,9 +226,9 @@
           alt=""
         />
       </div>
-      <div class="card__content">
+      <div class="card__content" id="card-con">
         <h1 class="card__title"> Sec. 2</h1>
-        <p class="card__description">
+        <p class="card__description" id="p-card">
         A student is considered officially enrolled upon payment of the 
          required fees duly validated by the Cashier's Office and 
          confirmation of the Registrar's Office.
@@ -246,9 +246,9 @@
           alt=""
         />
       </div>
-      <div class="card__content">
+      <div class="card__content" id="card-con">
         <h1 class="card__title">Sec. 3</h1>
-        <p class="card__description">
+        <p class="card__description" id="p-card">
         Certificate of Grades from the previous semester of an old 
          student should be presented upon enrollment.
         </p>
@@ -265,9 +265,9 @@
           alt=""
         />
       </div>
-      <div class="card__content">
+      <div class="card__content" id="card-con">
         <h1 class="card__title">Sec. 4</h1>
-        <p class="card__description">
+        <p class="card__description" id="p-card">
         Rules on prerequisites in a curriculum are observed and
          followed during enrollment.
         </p>
@@ -284,9 +284,9 @@
           alt=""
         />
       </div>
-      <div class="card__content">
+      <div class="card__content" id="card-con">
         <h1 class="card__title">Sec. 5</h1>
-        <p class="card__description">
+        <p class="card__description" id="p-card">
         CAT Result for undergraduates is valid for two (2) years.
         </p>
       </div>
@@ -302,9 +302,9 @@
           alt=""
         />
       </div>
-      <div class="card__content">
+      <div class="card__content" id="card-con">
         <h1 class="card__title">Sec. 6</h1>
-        <p class="card__description">
+        <p class="card__description" id="p-card">
         Enrolment in the group paced learning scheme at the DMMMSU Open 
          University System (DOUS) is done as scheduled from Monday to
         Saturday, while enrollment in the self-paced can be done anytime 
@@ -325,9 +325,9 @@
           alt=""
         />
       </div>
-      <div class="card__content">
+      <div class="card__content" id="card-con">
         <h1 class="card__title">Sec. 7</h1>
-        <p class="card__description">
+        <p class="card__description" id="p-card">
         Admission in the Expanded Tertiary Education Equivalency and
         Accreditation Program (ETEEAP) may be done any time of the year
         at the Office of the Dean/Director of the College/Institute concerned.

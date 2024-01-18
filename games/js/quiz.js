@@ -49,7 +49,7 @@ const quizData = [
     },
     {
         question: "Which does not belong here?",
-        a: "DMMMSU ELUC",
+        a: "DMMMSU NELUC",
         b: "DMMMSU MLUC",
         c: "DMMMSU NLUC",
         d: "DMMMSU OUS",

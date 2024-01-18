@@ -26,9 +26,10 @@
                 <nav>
                     <ul>
                         <li><a href="home.php">HOME</a></li>
-                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="about_us.php">ABOUT US</a></li>
                         <li><a href="courses.php">COLLEGES</a></li>
                         <li><a href="games/gameoptions.php">GAMES</a></li>
+                        <li><a href="contact_us.php">CONTACT US</a></li>
                     </ul>
                 </nav>
             </div>
@@ -75,6 +76,10 @@
 <div class="timeline">
     <h2>GRANTS AND SCHOLARHIPS<br><br></h2>
 </div>
+
+<button id="button-scho" onclick="window.location.href='scholarship.php';">
+        Get Scholarship
+      </button>
 
 <h2>1. Government-Funded</h2>
 <br>
@@ -334,7 +339,7 @@
 <h2>Policies and Guidelines:<br><br></h2>
 
 <!-- START SLIDE -->
-<div class="blog-slider">
+<div class="blog-slider" id="blog-grant">
     <div class="blog-slider__wrp swiper-wrapper">
       <!-- First Slide for the Second Slider -->
       <div class="blog-slider__item swiper-slide">
@@ -342,7 +347,7 @@
         <div class="blog-slider__content">
     
           <div class="blog-slider__text">
-                <p>1. Pass the admission requirements of the university.</p>
+                <p id="p-grant">1. Pass the admission requirements of the university.</p>
           </div>
         </div>
       </div>
@@ -352,7 +357,7 @@
         <div class="blog-slider__content">
     
           <div class="blog-slider__text">
-                <p>2. Adhere to the retention policies of the university/ the curricular program.</p>
+                <p id="p-grant">2. Adhere to the retention policies of the university/ the curricular program.</p>
           </div>
         </div>
     </div>
@@ -363,7 +368,7 @@
             <div class="blog-slider__content">
         
               <div class="blog-slider__text">
-                    <p>3. Must not be a recipient of any other government-funded assistance except Free Higher Education (RA 10931) unless the scholarship contract/ benefactor allows.</p>
+                    <p id="p-grant">3. Must not be a recipient of any other government-funded assistance except Free Higher Education (RA 10931) unless the scholarship contract/ benefactor allows.</p>
               </div>
             </div>
         </div>
@@ -417,7 +422,7 @@ to the Campus cashier for release of allowance. ARS are only issued to scholars 
 <h2>Responsibilities of Scholars/Grantees:<br><br></h2>
 
 <!-- START SLIDE -->
-<div class="blog-slider">
+<div class="blog-slider" id="blog-grant">
     <div class="blog-slider__wrp swiper-wrapper">
       <!-- First Slide for the Second Slider -->
       <div class="blog-slider__item swiper-slide">
@@ -425,7 +430,7 @@ to the Campus cashier for release of allowance. ARS are only issued to scholars 
         <div class="blog-slider__content">
     
           <div class="blog-slider__text">
-                <p>1. A continuing scholar/grantee is required to report to the Campus Scholarship Coordinator to submit necessary<br>
+                <p id="p-grant">1. A continuing scholar/grantee is required to report to the Campus Scholarship Coordinator to submit necessary<br>
                  documents (scholarship application form, certificate of grades, etc.) for monitoring, follow-up and for referral purposes.</p>
           </div>
         </div>
@@ -436,7 +441,7 @@ to the Campus cashier for release of allowance. ARS are only issued to scholars 
         <div class="blog-slider__content">
     
           <div class="blog-slider__text">
-                <p>2. A scholar/grantee must comply in the requirements stipulated in the scholarship contract or notice of award;<br>
+          <p id="p-grant">2. A scholar/grantee must comply in the requirements stipulated in the scholarship contract or notice of award;<br>
                  otherwise, this can be a ground for termination of scholarship/grant.</p>
           </div>
         </div>
@@ -448,7 +453,7 @@ to the Campus cashier for release of allowance. ARS are only issued to scholars 
             <div class="blog-slider__content">
         
               <div class="blog-slider__text">
-                    <p>3. Any act/s by the scholar such as, but not limited to, disloyalty to the university, misconduct<br>
+              <p id="p-grant">3. Any act/s by the scholar such as, but not limited to, disloyalty to the university, misconduct<br>
                      or misdemeanor or offense involving moral turpitude, and/or violation/s of any of the provisions of the student handbook.</p>
               </div>
             </div>
@@ -460,7 +465,7 @@ to the Campus cashier for release of allowance. ARS are only issued to scholars 
             <div class="blog-slider__content">
         
               <div class="blog-slider__text">
-                    <p>4. Unavailability of funds specifically intended for the scholarship program.</p>
+              <p id="p-grant">4. Unavailability of funds specifically intended for the scholarship program.</p>
               </div>
             </div>
         </div>

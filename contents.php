@@ -15,7 +15,7 @@
         .left-side {
             text-align: center;
             font-family: 'Futura Md BT', sans-serif;
-            color: #0eab38;
+            color: #007A00;
         }
 
         .left-side h1 {
@@ -125,7 +125,7 @@
     }
 
     .button-capsule {
-            background-color: #54D483;
+            background-color: #007a00;
             border: 1px solid #ccc;
             overflow: hidden;
             color: #FFFFFF;
@@ -147,7 +147,7 @@
 
         .button-capsule:hover {
             transform: scale(1.05);
-            background-color: #46E068;
+            background-color: #005900;
         }
 
         .button-capsule img {

@@ -27,9 +27,10 @@
                 <nav>
                     <ul>
                         <li><a href="home.php">HOME</a></li>
-                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="about_us.php">ABOUT US</a></li>
                         <li><a href="courses.php">COLLEGES</a></li>
                         <li><a href="games/gameoptions.php">GAMES</a></li>
+                        <li><a href="contact_us.php">CONTACT US</a></li>
                     </ul>
                 </nav>
             </div>
@@ -74,7 +75,7 @@
 </div>
 
 <div class="timeline">
-    <h2>RATIONALE<br><br></h2>
+    <h2>PERSONNEL<br><br></h2>
 </div>
 
 <p class="p_rationale">The Personnel In-Charge of Scholarsip and 

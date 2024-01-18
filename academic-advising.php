@@ -9,7 +9,6 @@
     <link href="https://fonts.cdnfonts.com/css/sansserifflf" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/academic_policy_nav_bar.css">
-    <link rel="stylesheet" href="css/time.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     
@@ -26,9 +25,10 @@
                 <nav>
                     <ul>
                         <li><a href="home.php">HOME</a></li>
-                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="about_us.php">ABOUT US</a></li>
                         <li><a href="courses.php">COLLEGES</a></li>
                         <li><a href="games/gameoptions.php">GAMES</a></li>
+                        <li><a href="contact_us.php">CONTACT US</a></li>
                     </ul>
                 </nav>
             </div>
@@ -398,8 +398,6 @@ assigned professors to teach for a term in the CGS/graduate level. It is compose
 
 <p>Section 4 At least three (3) weeks before the end of the second semester, the faculty adviser should require and secure  a copy of the financial report of the organization. This report includes the membership fees collected, if any, the expenses incurred during all activities, the receipt and disbursement of funds, and all the funds obtained through solicitation and/or donation. The financial report should be submitted to the Office of the Chancellor through the SAS Head at least a week before the semester ends.
 For co-curricular organizations, a copy of the financial report shall also be submitted to the Office of the Dean/Director through the Program Chair.</p>
-
-
 
 
 

@@ -118,56 +118,7 @@ session_start();
 </div>
 </section>
 
-
-<div class="row4">
-<div class="contact-heading">
-    <h2>CONTACT US</h2>
-    <ul class="social-icons">
-    <li><a href="https://www.facebook.com/DMMMSUEduPh/"><i class="fab fa-facebook-f"></i></a></li>
-    <li><a href="https://twitter.com/DMMMSUEduPh/"><i class="fab fa-twitter"></i></a></li>
-    <li><a href="https://www.youtube.com/channel/UCMxmVLwjdjWWWUfKV2b5E7g"><i class="fab fa-youtube"></i></a></li>
-  </ul>
-  </div>
-  <div class="division">
-    <h2>NLUC</h2>
-    <ul>
-      <li id="nluc-phone"><i class="fas fa-phone-alt"></i>(072) 687-0634</li>
-      <li id="nluc-email"><i class="far fa-envelope"></i>chancellor.nluc@dmmmsu.edu.ph</li>
-      <li id="nluc-website"><i class="fas fa-globe"></i> www.dmmmsu.edu.ph</li>
-    </ul>
-  </div>
-  
-  <div class="division">
-    <h2>MLUC</h2>
-    <ul>
-      <li id="nluc-phone"><i class="fas fa-phone-alt"></i>(072)-700-5453</li>
-      <li id="nluc-email"><i class="far fa-envelope"></i>chancellor.mluc@dmmmsu.edu.ph</li>
-      <li id="nluc-website"><i class="fas fa-globe"></i> www.dmmmsu.edu.ph</li>
-    </ul>
-  </div>
-  
-  <div class="division">
-    <h2>SLUC</h2>
-    <ul>
-      <li id="nluc-phone"><i class="fas fa-phone-alt"></i>(072)522-1062</li>
-      <li id="nluc-email"><i class="far fa-envelope"></i>chancellor.sluc@dmmmsu.edu.ph</li>
-      <li id="nluc-website"><i class="fas fa-globe"></i> www.dmmmsu.edu.ph</li>
-    </ul>
-  </div>
-  
-  <div class="division">
-    <h2>OUS</h2>
-    <ul>
-      <li id="nluc-phone"><i class="fas fa-phone-alt"></i> (072) 242-3608</li>
-      <li id="nluc-email"><i class="far fa-envelope"></i>chancellor.ous@dmmmsu.edu.ph</li>
-      <li id="nluc-website"><i class="fas fa-globe"></i> www.dmmmsu.edu.ph</li>
-    </ul>
-  </div>
-</div>
-
-
-
-    
+<div class="space"></div>
     
     <script src="js/about_us.js"></script>
 </body>

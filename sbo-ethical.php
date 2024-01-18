@@ -26,9 +26,10 @@
                 <nav>
                     <ul>
                         <li><a href="home.php">HOME</a></li>
-                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="about_us.php">ABOUT US</a></li>
                         <li><a href="courses.php">COLLEGES</a></li>
                         <li><a href="games/gameoptions.php">GAMES</a></li>
+                        <li><a href="contact_us.php">CONTACT US</a></li>
                     </ul>
                 </nav>
             </div>
@@ -318,7 +319,7 @@
 <h2>Sec. 8 DISQUALIFICATION OF COMPLAINANT OR SPONSOR FROM <br> TAKING THE RECALL OF IMPEACHMENT VOTE</h2>
 
 <!-- START SLIDE -->
-<div class="blog-slider" id="blog-slider-8">
+<div class="blog-slider" id="blog-slider-36">
     <div class="blog-slider__wrp swiper-wrapper">
       <!-- First Slide for the Second Slider -->
       <div class="blog-slider__item swiper-slide">
@@ -356,7 +357,7 @@
 <h2>Sec. 10 REPEALING CLAUSE</h2>
 
 <!-- START SLIDE -->
-<div class="blog-slider" id="blog-slider-2">
+<div class="blog-slider" id="blog-slider-37">
     <div class="blog-slider__wrp swiper-wrapper">
       <!-- First Slide for the Second Slider -->
       <div class="blog-slider__item swiper-slide">
@@ -375,7 +376,7 @@
 <h2>Sec. 11 EFFECTIVITY CLAUSE</h2>
 
 <!-- START SLIDE -->
-<div class="blog-slider" id="blog-slider-1">
+<div class="blog-slider" id="blog-slider-38">
     <div class="blog-slider__wrp swiper-wrapper">
       <!-- First Slide for the Second Slider -->
       <div class="blog-slider__item swiper-slide">

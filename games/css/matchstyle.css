@@ -157,13 +157,12 @@ body {
 
 .exit{
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 30px;
+  right: 0;
   display: inline-block;
   width: 100px;
   height: 100px;
 }
-
 .exit img{
   width: 50px;
   height: 50px;
