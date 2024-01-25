@@ -198,7 +198,7 @@
                                Goals
                             </h3>
                             <p class="inside-page__text">
-                              To lead in transforming human resources into productive, self-suficient citizens and responsible leaders.
+                              To lead in transforming human resources into productive, self-reliant citizens and responsible leaders.
                             </p>
                             
                         </div>

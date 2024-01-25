@@ -96,7 +96,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "Which of the following Official student publication you ca only find at DMMMSU-MLUC?",
+        question: "Which of the following Official student publication you can only find at DMMMSU-MLUC?",
         a: "The Forum",
         b: "The Green Valley Treasure.",
         c: "The MLUC Voice",
